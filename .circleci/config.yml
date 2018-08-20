@@ -9,7 +9,7 @@ jobs:
           POSTGRES_USER: ubuntu
           POSTGRES_DB: contacts
     working_directory: /go/src/github.com/circleci/cci-demo-docker
-
+    user: root
     environment:
       TEST_RESULTS: /tmp/test-results
 
